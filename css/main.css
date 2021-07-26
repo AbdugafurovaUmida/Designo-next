@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jost',sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1111px;
+    margin: 0 auto;
+}
+.page-title_web{
+    background-image: url(../img/web-bg.svg);
+}
+.page-title_app-design{
+    background-image: url(../img/Group\ 5.svg);
+}
+.page-title_graphic-design{
+    background-image: url(../img/graphic-bg.svg);
+}
+.page-title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(231, 129, 107, 1);
+    padding: 64px 0;
+    border-radius: 15px;
+    text-align: center;
+    margin: 160px 0;
+}
+.page-title__heading {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.page-title__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin: 24px auto 0;
+}
+.portfolio {
+    margin-bottom: 128px;
+}
+.cards {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 32px;
+    cursor: pointer;
+    transition: hover 5s linear;
+}
+.cards:hover .cards__content{
+    background-color: rgba(231, 129, 107, 1);  
+}
+.cards:hover .cards__title{
+    color:  rgba(255, 255, 255, 1);
+}
+.cards:hover .cards__text{
+    color:  rgba(255, 255, 255, 1);
+}
+/* .card__image {} */
+
+.cards__content {
+    background-color: rgba(253, 243, 240, 1);
+    text-align: center;
+    padding: 32px ;
+}
+.cards__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: #E7816B;
+    margin: 0;
+}
+.cards__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333136;
+    margin-top: 16px;
+}
+.services{
+    margin-bottom: 150px;
+}
+.service {
+    position: relative;
+    display: block;
+}
+/* .service__image {} */
+.service__info {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 107px;
+}
+.service__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.service__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-icons{
+    color: #E7816B;
+    font-size: 8px;
+}
